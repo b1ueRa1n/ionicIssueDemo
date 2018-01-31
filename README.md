@@ -2,4 +2,4 @@
 <b>Installation</b><br/>
 
 npm i<br/>
-ionic cordova build ios
+<b>ionic cordova build</b> ios  or <b>ionic cordova build android</b>
