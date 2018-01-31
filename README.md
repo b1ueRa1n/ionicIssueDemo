@@ -1,4 +1,4 @@
 # ionicIssueDemo
 Installation
-npm i
+npm i<br/>
 ionic cordova build ios
