@@ -1,0 +1,23 @@
+<ion-header>
+    <ion-navbar>
+        <ion-title>Home</ion-title>
+    </ion-navbar>
+</ion-header>
+
+<ion-content>
+
+    <ion-list>
+        <button ion-item tappable (click)="openPage('MyQuestionsPage')">
+        <ion-icon item-start color="yellow1" name="heart"></ion-icon><span>MyQuestionsPage</span>
+    </button>
+        <button ion-item tappable (click)="openPage('MyRepliesPage')">
+        <ion-icon  item-start color="orange1"  name="heart"></ion-icon><span>MyRepliesPage</span>
+    </button>
+        <button ion-item tappable (click)="openPage('SettingsPage')">
+        <ion-icon item-start color="blue1"  name="heart"></ion-icon><span>SettingsPage</span>
+    </button>
+        <button ion-item>
+        <ion-icon item-start color="blue2"  name="heart"></ion-icon><span>AAAA</span>
+          </button>
+    </ion-list>
+</ion-content>
